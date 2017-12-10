@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Amazon: Our Innovations</title>		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="images/icon.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="scripts/jquery-1.12.4.js"></script>
+		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">		
+		<link rel="stylesheet" href="style/style.css">		
+		<script src="scripts/main-script.js"></script>
+	</head>
+	<body>
+		<div id="divSlideShow" style="height:100%; background-image:url('images/echo.jpg'); background-size:cover;">
+			<div id="menu">
+				<div id="popupMenu" class="barPanel" onclick="changeMenuIcon('popupMenu');">
+					<div id="bar4" class="bar"></div>
+					<div id="bar5" class="bar"></div>
+					<div id="bar6" class="bar"></div>
+				</div>
+				<div style="text-align:center; font-size:xx-large; padding-top:7%;">
+					<p class="popMenuNav" onclick="location.href='index.html';"><a href="index.html">Home</a></p> 
+					<p class="popMenuNav" onclick="location.href='services.html';"><a href="services.html">Our Services</a></p>
+					<p class="popMenuNav" onclick="location.href='innovations.html';"><a href="innovations.html">Our Innovations</a></p> 
+					<p class="popMenuNav" onclick="location.href='about.html';"><a href="about.html">About us</a></p> 
+					<p class="popMenuNav" onclick="location.href='news.html';"><a href="news.html">News</a></p> 
+					<p class="popMenuNav" onclick="location.href='contact.html';"><a href="contact.html">Contact Us</a></p> 
+				</div>
+			</div>
+			<div id="divGoToTop">
+				<p class="arrowTop"></p>		
+			</div>
+			<div id="divMenu" class="menuAbsolute">	
+				<div style="float:left;">
+					<div id="divTopLeft">	
+						<div id="mainMenu" class="barPanel" onclick="changeMenuIcon('mainMenu');">
+							<div id="bar1" class="bar"></div>
+							<div id="bar2" class="bar"></div>
+							<div id="bar3" class="bar"></div>
+						</div>
+						<div id="divLogo"><a href="index.html"><img src="images/amazon.png" alt="Amazon's Logo" width=100 /></a></div>
+					</div>
+				</div>
+				<div id="divNav" style="float:right; padding-right:20px; padding-top:15px;">
+					<a href="index.html" class="navigation">Home</a>
+					<a href="services.html" class="navigation">Our Services</a>
+					<a href="innovations.html" class="navigation">Our Innovations</a>
+					<a href="about.html" class="navigation">About us</a>
+					<a href="news.html" class="navigation">News</a>
+					<a href="contact.html" class="navigation">Contact Us</a>
+				</div>
+			</div>		
+			<div style="margin:0 auto; width:50%; padding-top:5%;">
+				<div style="margin-top:10em;">
+					<p><img src="images/amazon.png" alt="Amazon's Logo" width=100%></p>
+					<p class="logoDescr">Ready for the future</p>											
+				</div>
+			</div>
+		</div>		
+		<div style="text-align:center;">
+			<h1>Our Innovations</h1>			
+			<div>
+				<table id="tableInnov" style="width:100%">
+					<tr>
+						<td class="innov-panel" onmouseenter="showDiv('1');" onmouseleave="hideDiv('1');" style="background-image:url('images/echos.jpg'); ">
+							<div class="innovName" id="title-1">Amazon Echo</div>
+							<div id="div-1" class="itemPanel">
+								<div class="divInnov">
+									<p class="innov-title">Amazon Echo</p>
+									<p class="innov-descrip">A new category of device that you can ask for information, music, news and more.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('2');" onmouseleave="hideDiv('2');" style="background-image:url('images/kindle.jpg'); ">
+							<div class="innovName" id="title-2">Kindle</div>
+							<div id="div-2" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Kindle</p>
+									<p class="innov-descrip">Amazon introduced the Kindle in November 2007 with the vision of offering every book ever written in any language, all available within 60 seconds.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('3');" onmouseleave="hideDiv('3');" style="background-image:url('images/fire-tablets.jpg'); ">
+							<div class="innovName" id="title-3">Fire Tablets</div>
+							<div id="div-3" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Fire Tablets</p>
+									<p class="innov-descrip">Fire tablets use cutting edge technology to bring shows, Amazon products and services to customers.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('4');" onmouseleave="hideDiv('4');" style="background-image:url('images/fire-tv.jpg'); ">
+							<div class="innovName" id="title-4">Amazon Fire TV</div>
+							<div id="div-4" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Amazon Fire TV</p>
+									<p class="innov-descrip">Fire TV plugs into your HDTV for easy access to TV shows and movies, music, etc.—all accessible with voice search that actually works.
+									</p>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="innov-panel" onmouseenter="showDiv('5');" onmouseleave="hideDiv('5');" style="background-image:url('images/amazon-fresh.jpg'); ">
+							<div class="innovName" id="title-5">Amazon Fresh</div>
+							<div id="div-5" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Amazon Fresh</p>
+									<p class="innov-descrip">AmazonFresh delivers groceries—and much more—to your door before you wake up.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('6');" onmouseleave="hideDiv('6');" style="background-image:url('images/prime-air.jpg'); ">
+							<div class="innovName" id="title-6">Prime Air</div>
+							<div id="div-6" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Prime Air</p>
+									<p class="innov-descrip">Amazon's future 30-minutes-or-less drone delivery system.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('7');" onmouseleave="hideDiv('7');" style="background-image:url('images/launchpad.png'); ">
+							<div class="innovName" id="title-7">Amazon Launchpad</div>
+							<div id="div-7" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Amazon Launchpad</p>
+									<p class="innov-descrip">An ever-expanding collection of emerging innovations from popular crowdfunding platforms, venture capital firms, startup incubators and accelerators.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('8');" onmouseleave="hideDiv('8');" style="background-image:url('images/aws.png'); ">
+							<div class="innovName" id="title-8">Amazon Web Services</div>
+							<div id="div-8" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Amazon Web Services</p>
+									<p class="innov-descrip">AWS is a broad set of compute, storage, database, analytics, application, and deployment services.
+									</p>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="innov-panel" onmouseenter="showDiv('9');" onmouseleave="hideDiv('9');" style="background-image:url('images/amazon-prime.jpg'); ">
+							<div class="innovName" id="title-9">Prime</div>
+							<div id="div-9" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Prime</p>
+									<p class="innov-descrip">In February 2005, Amazon launched Prime: an all-you-can-eat express shipping membership program for about a million products.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('10');" onmouseleave="hideDiv('10');" style="background-image:url('images/prime-now.jpg'); ">
+							<div class="innovName" id="title-10">Prime Now</div>
+							<div id="div-10" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Prime Now</p>
+									<p class="innov-descrip">Prime Now customers can have tens of thousands of items delivered within one hour.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('11');" onmouseleave="hideDiv('11');" style="background-image:url('images/wind-solar.jpg'); ">
+							<div class="innovName" id="title-11">Amazon Wind and Solar</div>
+							<div id="div-11" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Amazon Wind and Solar</p>
+									<p class="innov-descrip">Amazon Wind and Solar Farms will power current and future AWS Cloud datacenters.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('12');" onmouseleave="hideDiv('12');" style="background-image:url('images/marketplace.jpg'); ">
+							<div class="innovName" id="title-12">Marketplace</div>
+							<div id="div-12" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Marketplace</p>
+									<p class="innov-descrip">Sellers on Marketplace list their products with no listing fee and have their products featured right alongside items carried by Amazon.
+									</p>
+								</div>
+							</div>
+						</td>
+					</tr>				
+					<tr>
+						<td class="innov-panel" onmouseenter="showDiv('13');" onmouseleave="hideDiv('13');" style="background-image:url('images/recycle.jpg'); ">
+							<div class="innovName" id="title-13">Recycling Energy</div>
+							<div id="div-13" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Recycling Energy</p>
+									<p class="innov-descrip">Amazon's newest buildings in Seattle will be heated by recycling energy from a nearby data center.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('14');" onmouseleave="hideDiv('14');" style="background-image:url('images/mayday.png'); ">
+							<div class="innovName" id="title-14">The Mayday Button</div>
+							<div id="div-14" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">The Mayday Button</p>
+									<p class="innov-descrip">Launched in September 2013, the Mayday button provides live, on-device tech support—24x7, 365 days a year, and it's free.
+									</p>
+								</div>
+							</div>
+
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('15');" onmouseleave="hideDiv('15');" style="background-image:url('images/mouse.jpg'); ">
+							<div class="innovName" id="title-15">1-Click</div>
+							<div id="div-15" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">1-Click</p>
+									<p class="innov-descrip">In 1997, Amazon launched 1-Click, an innovation that gives customers the ability to make purchases on the Web with just one click of the mouse—no more entering the same information over and over again for each purchase.
+									</p>
+								</div>
+							</div>
+						</td>
+						<td class="innov-panel" onmouseenter="showDiv('16');" onmouseleave="hideDiv('16');" style="background-image:url('images/dash.jpg'); ">
+							<div class="innovName" id="title-16">Dash Button</div>
+							<div id="div-16" class="itemPanel">
+								<div  class="divInnov">
+									<p class="innov-title">Dash Button</p>
+									<p class="innov-descrip">Dash Button makes re-ordering frequently-used household items as easy as a push of a button.</p>
+								</div>
+							</div>
+						</td>
+					</tr>									
+				</table>
+			</div>				
+		</div>
+		<footer>&copy;2016 Amazon. All rights reserved.</footer>	
+	</body>
+</html>

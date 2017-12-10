@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Amazon: Home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="images/icon.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="scripts/jquery-1.12.4.js"></script>
+		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">		
+		<link rel="stylesheet" href="style/style.css">		
+		<script src="scripts/main-script.js"></script>
+	</head>
+	<body>
+		<div id="divSlideShow" style="height:100%; background-image:url('images/1.jpg'); background-size:cover;">
+			<div id="menu">
+				<div id="popupMenu" class="barPanel" onclick="changeMenuIcon('popupMenu');">
+					<div id="bar4" class="bar"></div>
+					<div id="bar5" class="bar"></div>
+					<div id="bar6" class="bar"></div>
+				</div>
+				<div style="text-align:center; font-size:xx-large; padding-top:7%;">
+					<p class="popMenuNav" onclick="location.href='index.html';"><a href="index.html">Home</a></p> 
+					<p class="popMenuNav" onclick="location.href='services.html';"><a href="services.html">Our Services</a></p>
+					<p class="popMenuNav" onclick="location.href='innovations.html';"><a href="innovations.html">Our Innovations</a></p> 
+					<p class="popMenuNav" onclick="location.href='about.html';"><a href="about.html">About us</a></p> 
+					<p class="popMenuNav" onclick="location.href='news.html';"><a href="news.html">News</a></p> 
+					<p class="popMenuNav" onclick="location.href='contact.html';"><a href="contact.html">Contact Us</a></p> 
+				</div>
+			</div>
+			<div id="divGoToTop">
+				<p class="arrowTop"></p>		
+			</div>
+			<div id="divMenu" class="menuAbsolute">	
+				<div style="float:left;">
+					<div id="divTopLeft">	
+						<div id="mainMenu" class="barPanel" onclick="changeMenuIcon('mainMenu');">
+							<div id="bar1" class="bar"></div>
+							<div id="bar2" class="bar"></div>
+							<div id="bar3" class="bar"></div>
+						</div>
+						<div id="divLogo"><a href="index.html"><img src="images/amazon.png" alt="Amazon's Logo" width=100 /></a></div>
+					</div>
+				</div>
+				<div id="divNav" style="float:right; padding-right:20px; padding-top:15px;">
+					<a href="index.html" class="navigation">Home</a>
+					<a href="services.html" class="navigation">Our Services</a>
+					<a href="innovations.html" class="navigation">Our Innovations</a>
+					<a href="about.html" class="navigation">About us</a>
+					<a href="news.html" class="navigation">News</a>
+					<a href="contact.html" class="navigation">Contact Us</a>
+				</div>
+			</div>	
+			<div style="margin:0 auto; width:50%; padding-top:5%;">
+				<div style="margin-top:10em;">
+					<p><img src="images/amazon.png" alt="Amazon's Logo" width=100%></p>
+					<p class="logoDescr">We are here for you</p>												
+				</div>
+			</div>
+		</div>
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-6">
+				<div style="margin-top:90px; margin-left:20px; background-image:url('images/website.jpg'); height:300px; background-size:cover; border-radius:150px;"></div>
+			</div>
+			<div class="col-sm-6">
+				<div style="margin-top:150px; border:1px #ccc solid; margin-right:20px;">
+					<div style="margin:4px; border:1px #ccc solid; text-align:center;  background-color:#DAD8D6;">
+						<h1 style="padding:20px;">What do we do</h1>
+						<p> As an e-business, we operate an online retail shopping that enable other retailers and individual sellers to sell products on our website.</p>				
+					</div>
+				</div>	
+			</div>
+		  </div>
+		</div>
+		
+		
+		<div class="container" style="background-color:#F9F9F9;">
+		  <div class="row">
+			<div class="col-sm-6">
+				<div style="margin-top:150px; border:1px #ccc solid; margin-left:20px; ">
+					<div style="margin:4px; border:1px #ccc solid; text-align:center; background-color:#DAD8D6;">
+						<h1 style="padding:20px;">Why us?</h1>
+						<p>We provide virtually anything what people want to buy online. We offer a personalized shopping experience for each customer.</p>				
+					</div>
+				</div>	
+			</div>
+			<div class="col-sm-6">
+				<div style="margin-top:90px; margin-right:20px; background-image:url('images/3.jpg'); height:300px; background-size:cover; border-radius:150px;"></div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-6">
+				<div style="margin-top:90px; margin-left:20px; background-image:url('images/user.jpg'); height:300px; background-size:cover; border-radius:150px;"></div>
+			</div>
+			<div class="col-sm-6">
+				<div style="margin-top:150px; border:1px #ccc solid; margin-right:20px;">
+					<div style="margin:4px; border:1px #ccc solid; text-align:center;  background-color:#DAD8D6;">
+						<h1 style="padding:20px;">What do we do</h1>
+						<p>Whether you’re selling just one product or are an established Amazon vendor, advertising on Amazon can get your products noticed when customers are shopping for similar items.</p>					
+					</div>
+				</div>	
+			</div>
+		  </div>
+		</div>
+		<div style="text-align:center;">				
+			<button class="btn" onclick="location.href='services.html';">Explore more</button>			
+		</div>
+		<footer>&copy;2016 Amazon. All rights reserved.</footer>
+	</body>
+</html>

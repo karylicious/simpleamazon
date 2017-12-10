@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Amazon: Contact Us</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="images/icon.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="scripts/jquery-1.12.4.js"></script>
+		<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">		
+		<link rel="stylesheet" href="style/style.css">		
+		<script src="scripts/main-script.js"></script>
+		<style>
+			.invalid {
+				border: 1px solid red;
+			}
+			fieldset{
+				border:2px solid silver;
+				padding:20px;
+			}
+			legend{
+				border-bottom:initial;
+				width:initial;
+			}
+		</style>		
+	</head>
+	<body>
+		<div id="divSlideShow" style="height:100%; background-image:url('images/blur.jpg'); background-size:cover;">
+			<div id="menu">
+				<div id="popupMenu" class="barPanel" onclick="changeMenuIcon('popupMenu');">
+				  <div id="bar4" class="bar"></div>
+				  <div id="bar5" class="bar"></div>
+				  <div id="bar6" class="bar"></div>
+				</div>
+				<div style="text-align:center; font-size:xx-large; padding-top:7%;">
+					<p class="popMenuNav" onclick="location.href='index.html';"><a href="index.html">Home</a></p> 
+					<p class="popMenuNav" onclick="location.href='services.html';"><a href="services.html">Our Services</a></p>
+					<p class="popMenuNav" onclick="location.href='innovations.html';"><a href="innovations.html">Our Innovations</a></p> 
+					<p class="popMenuNav" onclick="location.href='about.html';"><a href="about.html">About us</a></p> 
+					<p class="popMenuNav" onclick="location.href='news.html';"><a href="news.html">News</a></p> 
+					<p class="popMenuNav" onclick="location.href='contact.html';"><a href="contact.html">Contact Us</a></p> 
+				</div>
+			</div>
+			<div id="divGoToTop">
+				<p class="arrowTop"></p>		
+			</div>
+			<div id="divMenu" class="menuAbsolute">	
+				<div style="float:left;">
+					<div id="divTopLeft">	
+						<div id="mainMenu" class="barPanel" onclick="changeMenuIcon('mainMenu');">
+						  <div id="bar1" class="bar"></div>
+						  <div id="bar2" class="bar"></div>
+						  <div id="bar3" class="bar"></div>
+						</div>
+						<div id="divLogo"><a href="index.html"><img src="images/amazon.png" alt="Amazon's Logo" width=100 /></a></div>
+					</div>
+				</div>
+				<div id="divNav" style="float:right; padding-right:20px; padding-top:15px;">
+					<a href="index.html" class="navigation">Home</a>
+					<a href="services.html" class="navigation">Our Services</a>
+					<a href="innovations.html" class="navigation">Our Innovations</a>
+					<a href="about.html" class="navigation">About us</a>
+					<a href="news.html" class="navigation">News</a>
+					<a href="contact.html" class="navigation">Contact Us</a>
+				</div>
+			</div>		
+			<div style="margin:0 auto; width:50%; padding-top:5%;">
+				<div style="margin-top:10em;">
+					<p><img src="images/amazon.png" alt="Amazon's Logo" width=100%></p>
+					<p class="logoDescr">How can we help you</p>											
+				</div>
+			</div>
+		</div>
+		<div style="text-align:center">
+			<h1>Contact Us</h1>			
+			<p>Headquarters<br>
+				Amazon.com, LLC<br>
+				00 Unknown Road, London  NL2 2JR <br>
+				Telephone Number: 020 9999 9999<br>
+				Fax: 020 9999 9999<br>
+				Email: CustomerCare@amazon.com<br>
+			</p>		
+			<p id="horizontalLine"></p>		
+			<div style=" margin: 0 auto; width: 70%;">
+				<h2>How can we help?</h2>	
+				<p style="color:brown;">Fill out the form below and we’ll get back to you shortly</p>
+				<form name="myForm" method="post">
+					<div style="text-align:left;">
+						<fieldset>
+							<legend>Your Details</legend>
+							<table style="width:100%">
+								<tr>
+									<td style="width:50%;"><label>First Name*</label>
+									</td>
+									<td style="width:50%;"><label>Last Name*</label>
+									</td>
+								</tr>
+								<tr>
+									<td><input type="text" id="txtFirstName" style="width:97%;">
+									</td>
+									<td><input type="text" id="txtLastName">
+									</td>
+								</tr>
+							</table><br/>
+							<p>
+								<label>Email Address*</label><br/>
+								<input type="text" id="txtEmail">
+							</p>
+						</fieldset><br/>
+						<fieldset>
+							<legend>Your Review</legend>
+							<p>
+								<label for="hear-about">How did you hear about us?</label>
+								<select name="referrer" id="hear-about">
+									<option value="google">Google</option>
+									<option value="friend">Friend</option>
+									<option value="advert">Advert</option>
+									<option value="other">Other</option>
+								</select>
+							</p>
+							<p>
+								Would you visit again?<br />
+								<label><input type="radio" name="rating" value="yes" /> Yes</label>
+								<label><input type="radio" name="rating" value="no" /> No</label>
+								<label><input type="radio" name="rating" value="maybe" /> Maybe</label>
+							</p>
+							<p>
+								<label for="comments">Comments:</label><br />
+								<textarea rows="4" cols="40" id="comments" style="resize: none; width:100%;"></textarea>
+							</p>
+							<label><input type="checkbox" name="subscribe" checked="checked" /> Sign me up for email updates</label><br />
+						</fieldset><br/>
+						<fieldset>
+							<legend>Your Message</legend>
+							<p>
+								<label>Subject*</label><br/>
+								<input type="text" id="txtSubject">
+							</p>
+							<p>
+								<label>Message*</label><br/>
+								<textarea style="width:100%; height:200px;  resize: none;" id="txtMessage">
+								</textarea>
+							</p>
+						</fieldset><br />						
+						<div style="text-align:right">
+							<button class="btn">Send Message</button>
+						</div>
+					</div>
+				</form>		
+			</div>		
+		</div>
+		<footer>&copy;2016 Amazon. All rights reserved.</footer>	
+	</body>
+</html>
